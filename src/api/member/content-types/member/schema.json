@@ -1,0 +1,140 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "singularName": "member",
+    "pluralName": "members",
+    "displayName": "Member",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "tierKronos": {
+      "type": "integer",
+      "required": true,
+      "default": 10,
+      "unique": false,
+      "max": 16,
+      "min": 1
+    },
+    "timeKronos": {
+      "type": "string",
+      "regex": "\\d:\\d\\d|MAX",
+      "required": true,
+      "default": "1:00"
+    },
+    "tierApep": {
+      "type": "integer",
+      "required": true,
+      "default": 10,
+      "max": 16,
+      "min": 1
+    },
+    "timeApep": {
+      "type": "string",
+      "required": true,
+      "regex": "\\d:\\d\\d|MAX",
+      "default": "1:00"
+    },
+    "tierFafnir": {
+      "type": "integer",
+      "required": true,
+      "max": 16,
+      "min": 1,
+      "default": 10
+    },
+    "timeFafnir": {
+      "type": "string",
+      "regex": "\\d:\\d\\d|MAX",
+      "required": true,
+      "default": "2:00"
+    },
+    "bestPointWar": {
+      "type": "integer",
+      "default": 10,
+      "max": 20,
+      "min": 1,
+      "required": true
+    },
+    "shadowgale": {
+      "type": "enumeration",
+      "enum": [
+        "E",
+        "D",
+        "C",
+        "B",
+        "A",
+        "A2",
+        "S",
+        "SS",
+        "SSS",
+        "EX",
+        "EX2"
+      ],
+      "required": true,
+      "default": "A2"
+    },
+    "shadowstream": {
+      "type": "enumeration",
+      "enum": [
+        "E",
+        "D",
+        "C",
+        "B",
+        "A",
+        "A2",
+        "S",
+        "SS",
+        "SSS",
+        "EX",
+        "EX2"
+      ],
+      "required": true,
+      "default": "A2"
+    },
+    "shadowfire": {
+      "type": "enumeration",
+      "enum": [
+        "E",
+        "D",
+        "C",
+        "B",
+        "A",
+        "A2",
+        "S",
+        "SS",
+        "SSS",
+        "EX",
+        "EX2"
+      ],
+      "required": true,
+      "default": "A2"
+    },
+    "darkstarlord": {
+      "type": "enumeration",
+      "enum": [
+        "E",
+        "D",
+        "C",
+        "B",
+        "A",
+        "A2",
+        "S",
+        "SS",
+        "SSS",
+        "EX",
+        "EX2"
+      ],
+      "default": "A2",
+      "required": true
+    }
+  }
+}
