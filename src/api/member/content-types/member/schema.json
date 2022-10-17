@@ -27,7 +27,7 @@
     },
     "timeKronos": {
       "type": "string",
-      "regex": "\\d:\\d\\d|MAX",
+      "regex": "^\\d:\\d\\d|MAX",
       "required": true,
       "default": "1:00"
     },
@@ -41,7 +41,7 @@
     "timeApep": {
       "type": "string",
       "required": true,
-      "regex": "\\d:\\d\\d|MAX",
+      "regex": "^\\d:\\d\\d|MAX",
       "default": "1:00"
     },
     "tierFafnir": {
@@ -53,7 +53,7 @@
     },
     "timeFafnir": {
       "type": "string",
-      "regex": "\\d:\\d\\d|MAX",
+      "regex": "^\\d:\\d\\d|MAX",
       "required": true,
       "default": "2:00"
     },
