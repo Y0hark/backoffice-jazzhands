@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_content_links",
+  "info": {
+    "displayName": "Link",
+    "icon": "external-link-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link_content": {
+      "type": "string",
+      "required": true,
+      "regex": "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)"
+    },
+    "link_name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
