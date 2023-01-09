@@ -11,6 +11,8 @@ pipeline {
         }
         stage('Build') {
             steps {
+				echo 'Retreiving environment variables..'
+				sh 'sudo cp /home/yohark/utils/envs/backoffice_jazzhands/.env .'
                 echo 'Building project..'
 				sh 'npm run build'
                 echo 'Build completed successfully.'
