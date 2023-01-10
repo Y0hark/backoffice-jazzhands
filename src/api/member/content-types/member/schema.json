@@ -139,6 +139,36 @@
       ],
       "default": "A2",
       "required": true
+    },
+    "infinityTowerFloor": {
+      "type": "integer",
+      "max": 10,
+      "min": 1,
+      "default": 1
+    },
+    "infinityTowerStars": {
+      "type": "integer",
+      "default": 4,
+      "max": 6,
+      "min": 1
+    },
+    "temporalTowerFloor": {
+      "type": "integer",
+      "default": 20,
+      "max": 50,
+      "min": 1
+    },
+    "cbrWinner": {
+      "type": "boolean",
+      "default": false
+    },
+    "cbrSecond": {
+      "type": "boolean",
+      "default": false
+    },
+    "cbrThird": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
