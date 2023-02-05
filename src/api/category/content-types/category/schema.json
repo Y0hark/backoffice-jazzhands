@@ -20,6 +20,12 @@
       "relation": "oneToMany",
       "target": "api::guide.guide",
       "mappedBy": "category"
+    },
+    "news": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::new.new",
+      "mappedBy": "category"
     }
   }
 }
