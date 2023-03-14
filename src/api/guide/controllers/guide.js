@@ -3,13 +3,14 @@ const { createCoreController } = require('@strapi/strapi').factories;
 module.exports = createCoreController('api::guide.guide', ({ strapi }) => ({	
 
 	async findOne(ctx) {
-    const { slug } = ctx.params;
-    const { query } = ctx;
+		const { slug } = ctx.params;
 
-    const entity = await strapi.service('api::guide.guide').findOne(slug, query);
-    const sanitizedEntity = await this.sanitizeOutput(entity, ctx);
+		const entity = await strapi.db.query('api::guide.guide').findOne(
+			{ where: { slug } }
+		);
+		const sanitizedEntity = await this.sanitizeOutput(entity);
 
-    return this.transformResponse(sanitizedEntity);
-  },
+		return this.transformResponse(sanitizedEntity);
+	},
 
 }));
