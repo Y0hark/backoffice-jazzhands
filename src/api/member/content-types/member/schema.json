@@ -150,13 +150,7 @@
         "SSS",
         "EX",
         "EXPLUS",
-        "EX2PLUS",
-        "EX7.5",
-        "EX10",
-        "EX12.5",
-        "EX15",
-        "EX17.5",
-        "EX20"
+        "EX2PLUS"
       ],
       "default": "A2",
       "required": true
@@ -190,6 +184,44 @@
     "cbrThird": {
       "type": "boolean",
       "default": false
+    },
+    "countessSonica": {
+      "type": "enumeration",
+      "enum": [
+        "E",
+        "D",
+        "C",
+        "B",
+        "A",
+        "A2",
+        "S",
+        "SS",
+        "SSS",
+        "EX",
+        "EXPLUS",
+        "EX2PLUS"
+      ],
+      "default": "A2",
+      "required": true
+    },
+    "phobetor": {
+      "type": "enumeration",
+      "enum": [
+        "E",
+        "D",
+        "C",
+        "B",
+        "A",
+        "A2",
+        "S",
+        "SS",
+        "SSS",
+        "EX",
+        "EXPLUS",
+        "EX2PLUS"
+      ],
+      "default": "A2",
+      "required": true
     }
   }
 }
