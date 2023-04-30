@@ -72,7 +72,7 @@
         "C",
         "B",
         "A",
-        "A2",
+        "APLUS",
         "S",
         "SS",
         "SSS",
@@ -86,7 +86,7 @@
         "EX20"
       ],
       "required": true,
-      "default": "A2"
+      "default": "APLUS"
     },
     "shadowstream": {
       "type": "enumeration",
@@ -96,7 +96,7 @@
         "C",
         "B",
         "A",
-        "A2",
+        "APLUS",
         "S",
         "SS",
         "SSS",
@@ -110,7 +110,7 @@
         "EX20"
       ],
       "required": true,
-      "default": "A2"
+      "default": "APLUS"
     },
     "shadowfire": {
       "type": "enumeration",
@@ -120,7 +120,7 @@
         "C",
         "B",
         "A",
-        "A2",
+        "APLUS",
         "S",
         "SS",
         "SSS",
@@ -134,7 +134,7 @@
         "EX20"
       ],
       "required": true,
-      "default": "A2"
+      "default": "APLUS"
     },
     "darkstarlord": {
       "type": "enumeration",
@@ -144,7 +144,6 @@
         "C",
         "B",
         "A",
-        "A2",
         "S",
         "SS",
         "SSS",
@@ -152,7 +151,7 @@
         "EXPLUS",
         "EX2PLUS"
       ],
-      "default": "A2",
+      "default": "S",
       "required": true
     },
     "infinityTowerFloor": {
@@ -193,7 +192,6 @@
         "C",
         "B",
         "A",
-        "A2",
         "S",
         "SS",
         "SSS",
@@ -201,7 +199,7 @@
         "EXPLUS",
         "EX2PLUS"
       ],
-      "default": "A2",
+      "default": "S",
       "required": true
     },
     "phobetor": {
@@ -212,7 +210,6 @@
         "C",
         "B",
         "A",
-        "A2",
         "S",
         "SS",
         "SSS",
@@ -220,7 +217,7 @@
         "EXPLUS",
         "EX2PLUS"
       ],
-      "default": "A2",
+      "default": "S",
       "required": true
     }
   }
